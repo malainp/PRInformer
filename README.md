@@ -1,6 +1,8 @@
 # PRInformer
 Arduino project to notify when a pull request review is requested
 
+![Result](live.GIF)
+
 ## What you will need
 
 Hardware:
