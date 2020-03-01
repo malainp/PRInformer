@@ -27,7 +27,7 @@ Services:
 2. Replace dummy content in the code to match your setup (WiFi settings, Adafruit username, Adafruit key, Adafruit feed, Feed MQTT name)
 3. In the Feed, create a webhook receiver.
 4. Copy the ```/notify``` webhook receiver URL (As we don't really want to deal with all the JSON content we will use the  ```/notify``` URL and just receive in the Feed a *ping* value).
-5. Go to your Github repository settings, and add a Webhook (Paste there the ```/notify``` webhook URL you've copied in the previous step).
+5. In the Github repository you want to monitor go to settings, and add a Webhook (Paste there the ```/notify``` webhook URL you've copied in the previous step).
 6. In the section **Which events would you like to trigger this webhook?** Select **Pull request** events to trigger your webhook. (You can select whatever you want as well).
 7. Save the webhook.
 
