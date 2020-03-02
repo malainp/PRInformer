@@ -77,9 +77,9 @@ void loop() {
 
   // ping the server to keep the mqtt connection alive
   // NOT required if you are publishing once every KEEPALIVE seconds
-  /*if(! mqtt.ping()) {
+  if(! mqtt.ping()) {
     mqtt.disconnect();
-  }*/
+  }
 }
 
 void moveMotor() {
